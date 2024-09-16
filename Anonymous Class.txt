@@ -1,0 +1,29 @@
+A class can contain another class known as nested class. It's possible to create a nested class without 
+giving any name.
+
+A nested class that doesn't have any name is known as an anonymous class.
+
+An anonymous class must be defined inside another class. 
+Hence, it is also known as an anonymous inner class.
+
+Its syntax is:
+
+class outerClass {
+
+    // defining anonymous class
+    object1 = new Type(parameterList) {
+         // body of the anonymous class
+    };
+}
+
+The above code creates an object, object1, of an anonymous class at runtime
+
+ Anonymous Class 
+	Can Extend a Class
+	Can  Implement an Interface
+
+Advantages of Anonymous Classes
+objects are created whenever they are required. That is, objects are created to perform some specific tasks.
+
+Source: https://www.programiz.com/java-programming/anonymous-class
+Q&A: https://stackoverflow.com/questions/5848510/multiple-inheritance-for-an-anonymous-class
